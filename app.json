@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "The Hijma Hub",
+    "slug": "Hijma_Hub",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F9D563"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tamdev.thh"
+    },
+    "android": {
+		"permissions": [],
+		"versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F9D563"
+      },
+      "package": "com.tamdev.thh"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
